@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css" integrity="sha512-gMjQeDaELJ0ryCI+FtItusU9MkAifCZcGq789FrzkiM49D8lbDhoaUaIX4ASU187wofMNlgBJ4ckbrXM9sE6Pg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Banking Application</title>
+</head>
+<body>
+    <div class="selector-menu">
+        <a href="#"><i class="fas fa-university fa-2x" alt="Home"></i></a>
+        <a href="#"><i class="fas fa-search-dollar fa-2x" alt="Transactions"></i></a>
+        <a href="#" class="current"><i class="fas fa-paper-plane fa-2x" alt="Send Money"></i></a>
+        <a href="#"><i class="fas fa-store fa-2x"></i></a>
+        <a href="#"><i class="fas fa-mobile-alt fa-2x"></i></a>
+        
+    </div>
+    <input type="text" id="inputAmount" placeholder="Deposit Amount">
+    <div class="button-menu">
+        <button type="button" id="deposit"><span>Deposit</span><i class="fas fa-plus fa-2x" alt="Home"></i></button>
+        <button type="button" id="withdraw"><span>Withdraw</span><i class="fas fa-minus fa-2x" alt="Transactions"></i></button>
+    </div>
+    <div class="menue-container">
+        <div class="header-img">
+            <div class="overlay">
+            </div>
+            <div class="balance">
+                <h1>Balance</h1>
+                <div id="balance"> <i class="fas fa-money-bill-alt"></i><p>$380.49</p></div>
+            </div>
+        </div>
+
+        <ul class="list">
+            <li class="item">
+                <a href="">Gas Station</a>
+                <p>$17.50</p>
+            </li>
+            <li class="item">
+                <a href="">Clothing</a>
+                <p>$53.77</p>
+            </li>
+            <li class="item">
+                <a href="">House Rent</a>
+                <p>$220.88</p>
+            </li>
+            <li class="item">
+                <a href="">Burger Joint</a>
+                <p>$24.09</p>
+            </li>
+        </ul>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
